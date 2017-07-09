@@ -3,4 +3,6 @@ language: go
 go:
   - 1.7.x
 
+go_import_path: ./tasksIT/tasks/
+
 script: go test ./...
