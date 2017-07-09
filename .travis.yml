@@ -3,6 +3,6 @@ language: go
 go:
   - 1.7.x
 
-go_import_path: softserve-academy/tasksIT/tasks
+go_import_path: github.com/LisovskyiB/softserve-academy/tasksIT/tasks
 
 script: go test ./...
