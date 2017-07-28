@@ -6,7 +6,7 @@ import (
 
 func TestReturnRandomSlice(t *testing.T) {
 
-	if len(returnRandomSlice(2)) != 3 {
+	if len(returnRandomSlice(2)) != 2 {
 		t.Error()
 	}
 }
